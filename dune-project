@@ -41,6 +41,7 @@
   (obuilder-spec (= :version))
   fpath
   (ocaml (>= 4.14.1))
+  md2mld
   (alcotest-lwt (and (>= 1.7.0) :with-test))))
 
 (package
